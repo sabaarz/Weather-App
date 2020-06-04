@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+	<meta charset="utf-8" />
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="Weather.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading">Weather App</h1>
+            <form>
+                <input type="text" placeholder="Search for a city" autofocus>
+                <button type="submit"><span style="font-size:30px;">&#43;</span></button>
+                <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    
+        
+        <script src="Weather.js"></script>
+</body>
+</html>
